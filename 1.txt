@@ -1,2 +1,7 @@
 
-//new 1.txt after delete
+int func(int x,int y)
+{
+  int t=x;
+  x=y;
+  y=x;
+}
