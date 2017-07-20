@@ -1,7 +1,7 @@
 
-int func(int x,int y)
+int func(int* x,int* y)
 {
-  int t=x;
-  x=y;
-  y=x;
+  int t=*x;
+  *x=*y;
+  *y=t;
 }
